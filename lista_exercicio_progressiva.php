@@ -97,20 +97,82 @@ function ex9(){
 }
 
 function ex10(){
-    
+    $carros = [
+        'Strada' => ['Fiat', '2016'],
+        'Polo' => ['Volkswagen', '2026'],
+        'HB20' => ['Hyundai', '2025'],
+        'Civic' => ['Honda', '1998'],
+        'Onix' => ['Chevrolet', '2024'],
+    ];
+
+    print_r($carros);
 }
 
+function ex11(){
+    $alunos = [
+        "vinicius" => [6, 9],
+        "tomas" => [3, 1],
+        "jhuan" => [10, 4],
+    ];
 
+    foreach ($alunos as $nome => $notas) {
+        $media = array_sum($notas) / 2;
+        
+        echo ($nome) . ": " . $media . "\n";
+    }
+}
 
+function ex12(){
+    // nao sei fazer
+}
 
-//ex1();
-//ex2();
-//ex3();
-//ex4();
-//ex5();
-//ex6();
-//ex7();
-//ex8();
+function ex13(){
+    $n1 = readline("Digite um numero: ");
+    $n2 = readline("Digite um numero: ");
+    $n3 = readline("Digite um numero: ");
+
+    $media = ($n1 + $n2 + $n3) / 3;
+    echo "sua média é: " . $media;
+}
+
+function verificarIdade(){
+    $idade = readline("Digite sua idade: ");
+
+    if ($idade >= 18){
+        echo "Voce é maior de Idade";
+    } else{
+        echo "Voce é menor de idade";
+    }
+}
+
+function ex15(){
+    $lista = [];
+
+    while (True){
+        $entrada = readline("Digite o item da sua lista de compras ou 'sair' para sair: ");
+        if ($entrada == 'sair'){
+            print_r($lista);
+            break;
+        } else{
+            $lista[] = $entrada;
+        }
+    }
+
+}
+
+ex1();
+ex2();
+ex3();
+ex4();
+ex5();
+ex6();
+ex7();
+ex8();
 ex9();
 ex10();
+ex11();
+ex12();
+ex13();
+verificarIdade();
+ex15();
 ?>
