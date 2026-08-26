@@ -8,8 +8,8 @@ class Pessoa{
         public int $idade
     ) {}
 
-    public function apresentar(): string{
-        return "Olá! Meu nome é {$this->nome} e tenho {$this->idade} anos." . PHP_EOL;
+    public function saudacao(): string{
+        return "Olá! Meu nome é {$this->nome} e tenho {$this->idade} anos.";
     }
 }
 
