@@ -1,0 +1,17 @@
+{
+    "name": "aula/poo",
+    "authors": [
+        {
+            "name": "Vinicius Sulpicio",
+            "email": "viniciusulpicio@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload":{
+        "psr-4":{
+            "App\\": "src/"
+        }
+    }
+}
