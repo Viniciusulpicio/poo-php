@@ -33,8 +33,8 @@ class Retangulo {
         return false;
     }
 
-    public function redimencionar(float $largura, float $altura): void{
-        if ($this->largura <= 0 || $this->altura <= 0){
+    public function redimensionar(float $largura, float $altura): void{
+        if ($largura <= 0 || $altura <= 0){
             throw new InvalidArgumentException('O valor não pode ser menor ou igual a 0');
         }
 
