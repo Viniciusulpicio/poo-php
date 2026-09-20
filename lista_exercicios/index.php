@@ -16,8 +16,9 @@ require_once __DIR__ . '/vendor/autoload.php';
 //require_once __DIR__ . "/tests/ex9.php";
 //require_once __DIR__ . "/tests/ex10.php";
 //require_once __DIR__ . "/tests/ex11.php";
-require_once __DIR__ . "/tests/ex12.php";
-
+//require_once __DIR__ . "/tests/ex12.php";
+//require_once __DIR__ . "/tests/ex13.php";
+require_once __DIR__ . "/tests/ex14.php";
 
 
 ?>
