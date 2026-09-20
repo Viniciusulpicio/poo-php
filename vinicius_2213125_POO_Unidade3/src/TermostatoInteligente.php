@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+use InvalidArgumentException;
 
 class TermostatoInteligente{
     public function __construct(

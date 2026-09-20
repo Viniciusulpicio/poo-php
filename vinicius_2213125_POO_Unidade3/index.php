@@ -33,7 +33,6 @@ function main(){
 }
 
 function exercicio1(){
-// exercicio 1 - retangulo
 $retangulo = new Retangulo(10, 5);
 $retangulo2 = new Retangulo(6, 3);
 $retangulo3 = new Retangulo(20, 7);
