@@ -28,3 +28,6 @@ $aluno->aplicarNota($listaMatematica, 5.0);
 $aluno->aplicarNota($projetoFisica, 15.0);
 
 echo $aluno->status();
+
+
+echo PHP_EOL . "Fim do exercicio 10" . PHP_EOL;
